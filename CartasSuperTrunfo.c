@@ -51,7 +51,7 @@
             for (i = 0; i < MAX_CARTAS; i++) {    // Estrutura de repetição para coleta de dados | i = variavel para contador iniciando em 0 | enquanto i < maximo de cartas a estrutura vai se repetir adicionando 1 a i (i++)
 
                 printf("========================================================================\n");
-                printf("                     SUPER TRUNFO PAISES - CARTA %d\n", i + 1);
+                printf("                     SUPER TRUNFO PAISES - CARTA %d\n", i + 1);             // i + 1 pois i no inicio é 0e ao somar 1 mostrará 1 no terminal
                 printf("========================================================================\n");
 
                 printf("\nDigite uma letra que irá representar o %d estado (A até H): \n", i);
