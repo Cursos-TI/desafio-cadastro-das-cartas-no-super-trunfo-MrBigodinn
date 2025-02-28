@@ -15,7 +15,7 @@
     */
 
     // Criando um estrutura para as cartas
-    typedef struct {
+    typedef struct {           // Criando um struct para conter cada carta
         char estado;           // Letra do estado
         int codigo;            // Numero
         char cidade[50];       // Nome 
